@@ -50,6 +50,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :production do
+  gem 'pg', '>= 0.18', '< 2.0'
+end
+
 gem 'kaminari'
 
 
